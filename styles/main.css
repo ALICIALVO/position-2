@@ -5,11 +5,6 @@
 .wrapper {
     background: #eaeaea;
     min-height: 100vh;
-<<<<<<< HEAD
-    /* height: 150rem; */
-=======
-    height: 150rem;
->>>>>>> 1cac65faf0126ab8aa9cb803b4e846d3667373ce
   }
   .wrapper__nav {
     position: fixed;
