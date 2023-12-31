@@ -5,7 +5,7 @@
 .wrapper {
     background: #eaeaea;
     min-height: 100vh;
-    height: 150rem;
+    /* height: 150rem; */
   }
   .wrapper__nav {
     position: fixed;
@@ -31,8 +31,13 @@
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top: 15rem;
-    left: calc(50% - 70vh);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    padding-top: 15rem;
+    padding-left: 12rem;
   }
   
   
