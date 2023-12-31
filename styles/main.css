@@ -1,0 +1,123 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+.wrapper {
+    background: #eaeaea;
+    min-height: 100vh;
+    height: 150rem;
+    
+  }
+  .wrapper__nav {
+    position: fixed;
+    background: rgb(119, 185, 228);
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    z-index: 1;
+    font-weight: bolder;
+  }
+  .wrapper__nav--title {
+    font-size: 4rem;
+  }
+
+  .top-bg {
+    height: 36rem;
+    width: 100%;
+    background: cornflowerblue;
+    position: fixed;
+  }
+
+  .wrapper__main {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 15rem;
+    left: calc(50% - 70vh);
+  }
+  
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #242f39;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 3.5rem 0;
+    margin: 1rem;
+    
+  }
+  
+  .anakin {
+    border-radius: 50%;
+    width: 12.5rem;
+    height: 12.5rem;
+    border: 4px solid white;
+  }
+  .notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2.8rem;
+    right: -4.5rem;
+    border-radius: 50%;
+    background: red;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    font-size: 16px;
+    border: 3px solid #242f39;
+  }
+  
+  .userName {
+    margin-top: 0rem;
+    font-size: 2rem;
+  }
+  
+  .level {
+    font-size: 1.4rem;
+    color: #b4cfff;
+    font-weight: bold;
+  }
+  
+  .matrics_card {
+    display: flex;
+    background: #0f8bd9;
+    margin: 3rem 0;
+  }
+  .metrics_box {
+    text-align: center;
+    padding: 1.5rem;
+  }
+  .following {
+    background: #0e7ec5;
+  }
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b4cfff;
+  }
+  .num {
+    font-size: 2rem;
+  }
+  
+  .press {
+    background: none;
+    color: white;
+    padding: 1.2rem 3.5rem;
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  .press:hover {
+    background: #3c5469;
+  }
+  
+  .press:active {
+    background: none;
+  }
+  
